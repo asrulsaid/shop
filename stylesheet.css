@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.collections {
+  margin-bottom: 20px;
+}
+
+.collection {
+  text-align: center;
+  color: #919191;
+}
+
+.cloth {
+  float: left;
+  margin: 15px 45px;
+  background-color: #f4f4f4;
+}
+
+.cloth-image img {
+  width: 300px;
+  height: 456px;
+}
+
+.more_content {
+	padding: 30px 0;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.heading {
+  padding: 10px;
+  color: #5f5d60;
+  text-align: center;
+}
+
+.heading-title {
+  border-bottom: 2px solid #dee7ec;
+  letter-spacing: 5px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.kategori {
+	display: flex;
+	text-align: center;
+}
+
+.kategori img {
+	width: 95%;
+}
+
+.content {
+  flex: auto;
+  width: 25%;
+  position: relative;
+}
+
+.content img {
+	background-color: rgb(255, 255, 255);
+	border-radius: 3px;
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 10px;
+	transition: all 0.3s ease-in-out 0s
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #4ccfc9;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+input {
+	background: none;
+	border: none;
+}
+.container input {
+	border-bottom: 1px solid #000;
+	width: 50%;
+	display: block;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 16px;
+	color: #000;
+}
