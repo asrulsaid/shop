@@ -3,8 +3,39 @@ body {
   font-family: "Lucida Grande";
 }
 
+li {
+  list-style: none;
+  padding: 10px 20px;
+}
+
 a {
   text-decoration: none;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(55, 57, 61, 0.79);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-logo {
+  float: left;
+  font-size: 30px;
+  color: #ffffffbf;
+  margin-right: 50px;
+}
+
+.menu-left li{
+  color: #ffffffbf;
+  float: left;
+}
+
+.menu-right li{
+  color: #ffffffbf;
+  float: right;
 }
 
 .top-wrapper {
