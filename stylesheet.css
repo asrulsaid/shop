@@ -7,6 +7,35 @@ a {
   text-decoration: none;
 }
 
+.top-wrapper {
+  background-color: #f9fbfe;
+  background-image: url(https://cocoandcreme.com/wp-content/uploads/2019/07/1.jpg);
+  background-size: cover;
+  color: white;
+  height: 250px;
+  text-align: left;
+  padding: 180px 100px;
+  margin-bottom: 30px;
+}
+
+.top-wrapper > .container{
+  display: block;
+  opacity: 0.7;
+  letter-spacing: 5px;
+  line-height: normal;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container h2 {
+  color: #1e272e;
+}
+
 .clear {
   clear: left;
 }
@@ -33,13 +62,6 @@ a {
 
 .more_content {
 	padding: 30px 0;
-}
-
-.container {
-  max-width: 1170px;
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
 }
 
 .heading {
