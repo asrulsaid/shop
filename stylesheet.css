@@ -21,6 +21,8 @@ header {
   z-index: 10;
 }
 
+
+
 .header-logo {
   float: left;
   font-size: 30px;
@@ -43,7 +45,6 @@ header {
   background-image: url(https://cocoandcreme.com/wp-content/uploads/2019/07/1.jpg);
   background-size: cover;
   color: white;
-  height: 250px;
   text-align: left;
   padding: 180px 100px;
   margin-bottom: 30px;
@@ -70,6 +71,10 @@ header {
 .clear {
   clear: left;
 }
+.cloth-image img:hover {
+  opacity: 2;
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,2);}
+}
 
 .collections {
   margin-bottom: 20px;
@@ -82,13 +87,12 @@ header {
 
 .cloth {
   float: left;
-  margin: 15px 45px;
+  /* margin: 15px 45px; */
   background-color: #f4f4f4;
 }
 
 .cloth-image img {
   width: 300px;
-  height: 456px;
 }
 
 .more_content {
@@ -127,14 +131,16 @@ header {
 	background-color: rgb(255, 255, 255);
 	border-radius: 3px;
 	box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 10px;
-	transition: all 0.3s ease-in-out 0s
+	transition: all 0.3s ease-in-out 0s;
 }
+
 
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
 }
+
 
 .message {
   padding: 15px 40px;
@@ -152,6 +158,11 @@ header {
   margin-top: 20px;
 }
 
+.btn:hover {
+  opacity : 3;
+  color:grey;
+}
+
 input {
 	background: none;
 	border: none;
@@ -166,4 +177,46 @@ input {
 	text-align: center;
 	font-size: 16px;
 	color: #000;
+}
+
+.container li:hover {
+  opacity : 3;
+  color:brown;
+
+}
+
+.social-media{
+  text-align: left;
+  padding-left:50px;
+  font-size:14px;
+  color:grey;
+  font-weight:bold;
+
+}
+
+
+.end p{
+  text-align:right;
+  padding-right:20px;
+  color:grey;
+ 
+}
+
+
+.instagram:hover{
+  opacity:2;
+}
+
+
+@media (max-width:768px){
+.top-wrapper {
+  padding: 180px 50px;
+}
+.cloth-image img {
+  width: 150px;
+  }
+  .heading-title{
+    text-align: center;
+    font-size:20px;
+  }
 }
